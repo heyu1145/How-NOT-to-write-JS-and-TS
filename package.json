@@ -1,0 +1,12 @@
+{
+  "name": "typescript-shit-mountain",
+  "version": "0.0.1-💩",
+  "description": "A masterpiece of how NOT to write TypeScript",
+  "keywords": ["anti-pattern", "how-not-to", "typescript", "comedy", "satire"],
+  "license": "WTFPL",
+  "scripts": {
+    "build": "tsc --noEmit --skipLibCheck --strict false",  // 永远编译失败！
+    "test": "echo 'Tests would fail anyway' && exit 1",
+    "lint": "eslint . --fix --no-ignore || echo 'Linting failed as expected'"
+  }
+}
