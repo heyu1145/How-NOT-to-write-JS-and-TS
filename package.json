@@ -1,12 +1,40 @@
 {
-  "name": "typescript-shit-mountain",
-  "version": "0.0.1-💩",
-  "description": "A masterpiece of how NOT to write TypeScript",
-  "keywords": ["anti-pattern", "how-not-to", "typescript", "comedy", "satire"],
-  "license": "WTFPL",
+  "name": "how-not-to-write-js-and-ts",
+  "version": "0.0.1-shit",
+  "description": "💩 Epic JavaScript & TypeScript anti-patterns collection - How NOT to write code!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --noEmit --skipLibCheck --strict false",  // 永远编译失败！
-    "test": "echo 'Tests would fail anyway' && exit 1",
-    "lint": "eslint . --fix --no-ignore || echo 'Linting failed as expected'"
+    "build": "tsc",
+    "build:js": "echo 'JS version is generated from TS' && npm run build",
+    "prepublishOnly": "npm run build",
+    "test": "echo '🚨 Tests would fail anyway' && exit 0"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "anti-patterns",
+    "bad-practices",
+    "how-not-to-code",
+    "programming-humor",
+    "comedy",
+    "shit-code"
+  ],
+  "author": "Your Name",
+  "license": "WTFPL",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyu1145/How-NOT-to-write-JS-and-TS.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }

@@ -41,7 +41,10 @@
 
 ```bash
 # 不建议安装，但如果你非要...
-npm install HowNotToWriteJSandTS
+npm install How-NOT-to-write-JS-and-TS@dontuse
+
+// 请注意: 必须加tag(dontuse): 这可是npm想保护你
+
 # 或者直接克隆这个让你后悔的项目
 git clone https://github.com/heyu1145/How-NOT-to-write-JS-nad-TS.git
 cd How-NOT-to-write-JS-and-TS
