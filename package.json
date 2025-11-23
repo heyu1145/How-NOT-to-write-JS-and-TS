@@ -1,6 +1,6 @@
 {
   "name": "how-not-to-write-js-and-ts",
-  "version": "0.0.1-shit",
+  "version": "0.0.1-is-this-useful",
   "description": "💩 Epic JavaScript & TypeScript anti-patterns collection - How NOT to write code!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
