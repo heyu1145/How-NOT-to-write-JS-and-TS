@@ -2,6 +2,10 @@
 
 > **警告**：本项目是行为艺术，请勿在生产环境使用！除非你想被同事追杀！
 
+[![npm version](https://img.shields.io/npm/v/how-not-to-write-js-and-ts.svg?style=flat-square)](https://www.npmjs.com/package/how-not-to-write-js-and-ts)
+[![npm downloads](https://img.shields.io/npm/dm/how-not-to-write-js-and-ts.svg?style=flat-square)](https://www.npmjs.com/package/how-not-to-write-js-and-ts)
+[![license](https://img.shields.io/npm/l/how-not-to-write-js-and-ts.svg?style=flat-square)](https://github.com/heyu1145/How-NOT-to-write-JS-and-TS/blob/main/LICENSE.txt)
+
 ![屎山评级](https://img.shields.io/badge/代码质量-💩%20x%201000-red)
 ![可维护性](https://img.shields.io/badge/可维护性-不存在-lightgrey)
 ![笑声指数](https://img.shields.io/badge/笑声指数-爆表-yellow)
