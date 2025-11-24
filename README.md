@@ -56,21 +56,9 @@ cd How-NOT-to-write-JS-and-TS
 
 ## 🚀 快速开始
 
-```typescript
-import { a, leakMemory, magicCompare } from 'typescript-shit-mountain';
-
-// 准备好见证奇迹（和崩溃）了吗？
-const result = await a().then(x => x.valueOf()());
-
-// 内存泄漏模式启动！
-const leaker = leakMemory();
-
-// 类型转换的魔法！
-if (magicCompare == 1 && magicCompare == 0 && magicCompare == 'magic') {
-  console.log('JavaScript 类型系统就是个笑话！');
-}
+```shell
+node src/client.js | node src/server.js # 来看双端打架(你的cpu可能会烧起来)
 ```
-
 ## 🤔 使用场景
 
 ### 教育培训
@@ -138,7 +126,7 @@ A: 测试会失败，就像这个项目的意义一样。
 
 ## 📄 许可证
 
-本项目采用 [笑死不管许可证](LICENSE) -  basically, 你爱干嘛干嘛，但后果自负！
+本项目采用 [笑死不管许可证](LICENSE.txt) -  basically, 你爱干嘛干嘛，但后果自负！
 
 ---
 
