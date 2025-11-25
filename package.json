@@ -1,6 +1,6 @@
 {
   "name": "how-not-to-write-js-and-ts",
-  "version": "0.0.2-client-vs-server",
+  "version": "0.0.2-fixed-no-js",
   "description": "💩 Epic JavaScript & TypeScript anti-patterns collection - How NOT to write code!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,8 +29,7 @@
     "dist",
     "README.md",
     "LICENSE",
-    "src/client.js",
-    "src/server.js"
+    "src"
   ],
   "repository": {
     "type": "git",
